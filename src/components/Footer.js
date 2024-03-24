@@ -34,7 +34,7 @@ function Footer() {
             <h3 className='fw-bold'>Contact Us</h3>
             <ul className='list-unstyled'>
               <li onClick={handleDial}>Call us : 9454900060</li>
-              <li><a className="custom-link" href="mailto:clinic@homeopathy.com">clinic@homeopathy.com</a></li>
+              <li><a className="custom-link" href="mailto:clinic@homeopathy.com">rahularyan9999@gmail.com</a></li>
               <li></li>
             </ul>
           </div>

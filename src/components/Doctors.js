@@ -13,19 +13,21 @@ function Doctors() {
        { name: "Dr. Virendra",designation:"BAMS", urL:Virendra},
        { name: "Dr. Nagma",designation:"BAMS", urL:Nagma},
        { name: "Dr. Abhishek Yadav",designation:"BHMS", urL:Abhishek},
-       { name: "Dr. Avinash Bharadwaj",designation:"BHMS", urL:Avinash}
+       { name: "Dr. Avinash Bharadwaj",designation:"BHMS", urL:Avinash},
+       { name: "Dr. Hukum Singh",designation:"BHMS", urL:Avinash}
     ]  
   return (
     <div>
-      <div className='doctorDiv row px-4'>
+      <div className='doctorDiv row'>    
          {doctor.map((content,index) =>(
-             <div className='cardDoctor col-xl-4 col-md-4 col-1 md-4'>
-                 <div className='doctorImg pt-4'>
-             <img src={content.urL} alt="docimg" width="280px" height="240px" className="img-fluid rounded overflow-hidden"></img></div>
+             <div className='cardDoctor col-3 mb-4'>
+                 <div className='doctorImg'>
+             <img src={content.urL} alt="docimg" height="250px" width="280px" className="img-fluid rounded overflow-hidden m-2"></img></div>
              <div><b>{content.name}</b></div>
-             <div className='fs-7 pb-2'>{content.designation}</div>
-         </div>
+             <div className='fs-7 pb-2'>{content.designation}</div>     
+             </div>   
          ))}
+          
       </div>
     </div>
   )
