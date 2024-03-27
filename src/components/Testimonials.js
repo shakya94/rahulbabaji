@@ -3,21 +3,32 @@ import ReactPlayer from "react-player";
 
 export default function Testimonials() {
   const piles = [
-    "https://www.youtube.com/watch?v=SptC-_KJ2ws",
-    "https://www.youtube.com/watch?v=SptC-_KJ2ws",
+    "https://www.youtube.com/watch?v=BTy91ksYDmc",
+    "https://www.youtube.com/watch?v=S1T67xnoPGg",
+    "https://www.youtube.com/watch?v=sZP8YSNU_MU"
   ];
   const kidneyFailure = [
-    "https://www.youtube.com/watch?v=SptC-_KJ2ws",
-    "https://www.youtube.com/watch?v=SptC-_KJ2ws",
+    "https://www.youtube.com/watch?v=b4Ue4u0XMZ4",
+    "https://www.youtube.com/watch?v=RvM3pekjmRs",
+    "https://www.youtube.com/watch?v=LiEP9yngb30"
   ];
-  const mind = [""];
-  const multipleOrganFailure = [""];
+  const mind = [
+    "https://www.youtube.com/watch?v=Ln5qpH6wIC8&t=11s",
+    "https://www.youtube.com/watch?v=dPI5QYynvcY",
+    "https://www.youtube.com/watch?v=11xfJKY_SW8"
+  ];
+  const multipleOrganFailure = [
+    "https://www.youtube.com/watch?v=YKVHja9SREw&t=17s",
+  ];
   const autoImmuneDesease = [""];
   const liver = [""];
   const ENT = [""];
   const eye = [""];
   const diabetese = [""];
-  const cancer = [""];
+  const cancer = [
+    "https://www.youtube.com/watch?v=RRjOrIuO_9Q",
+    "https://www.youtube.com/watch?v=26M5y7aI_nM",
+  ];
   const allVideos = [
     piles,
     kidneyFailure,
