@@ -8,6 +8,15 @@
  /* Optional: Add background color to the header */
  
 }
+.custom-tooltip {
+  background-color: #ffffff;
+  color: #333333;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 14px;
+}
+
 .headersnew{
   font-size: 50px;
   font-weight: bold;
