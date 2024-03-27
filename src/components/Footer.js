@@ -13,7 +13,7 @@ function Footer() {
                 Dr Rahul Astro Homeopathic & Research Center
               </h3>
               Dr Rahul Astro Homeopathic & Research Center is India's fastest-growing Homeopathy Clinic. We offer our services through a Physical Clinic and TeleClinic. <br/>
-              <div className='my-4'><a className="custom-link" href="/"><i className="fab fa-facebook-square fa-2x pr-4"></i></a>
+              <div className='my-4'><a className="custom-link" href="https://www.facebook.com/profile.php?id=100084153123263&mibextid=kFxxJD"><i className="fab fa-facebook-square fa-2x pr-4"></i></a>
             <a className="custom-link" href="/"><i className="fab fa-instagram fa-2x pr-4"></i></a>
             <a className="custom-link" href="https://www.youtube.com/@dr.rahulbabaji"><i className="fab fa-youtube fa-2x"></i></a></div>
           </div>

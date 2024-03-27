@@ -11,8 +11,8 @@ import Doctors from './Doctors';
 function Home() {
   return (
     <div>
-      <Imagecontainer/>
-      <Numbers/>
+    <Imagecontainer/>
+    <Numbers/>
      <Article/>
      <Doctors/>
      <Diseases/>
