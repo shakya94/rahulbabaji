@@ -14,7 +14,7 @@ function Footer() {
               </h3>
               Dr Rahul Astro Homeopathic & Research Center is India's fastest-growing Homeopathy Clinic. We offer our services through a Physical Clinic and TeleClinic. <br/>
               <div className='my-4'><a className="custom-link" href="https://www.facebook.com/profile.php?id=100084153123263&mibextid=kFxxJD"><i className="fab fa-facebook-square fa-2x pr-4"></i></a>
-            <a className="custom-link" href="/"><i className="fab fa-instagram fa-2x pr-4"></i></a>
+            <a className="custom-link" href="https://www.instagram.com/dr_rahul_baba_ji/"><i className="fab fa-instagram fa-2x pr-4"></i></a>
             <a className="custom-link" href="https://www.youtube.com/@dr.rahulbabaji"><i className="fab fa-youtube fa-2x"></i></a></div>
           </div>
           <div className='col-xl-3 col-12 pl-3'>
@@ -27,7 +27,7 @@ function Footer() {
             <ul className='list-unstyled'>
               <li>Skin Disorders</li>
               <li>Respiratory Ailments</li>
-              <li>Arthritis</li>
+              <li>Cancer</li>
             </ul>
           </div>
           <div className='col-xl-2 col-6 pl-3'>

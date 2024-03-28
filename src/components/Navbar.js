@@ -1,12 +1,13 @@
 import React from 'react';
-import sitelogo from './Images/sitelogo.png';
+// import sitelogo from './Images/sitelogo.png';
+import logo from './Images/logo.png';
 import MobileDropDown from './MobileDropdown';
 function Navbar() {
   return (
     <nav id="navbar" className="navbar-expand-lg " style ={{ backgroundColor: "rgba(255,255,255,0.83)" }}>
       <div className="container-fluid row">
         <div className="col-1">
-        <img className="logo-img" src={sitelogo} height="100px" width="100px" alt="newlogo"/>
+        <img className="logo-img" src={logo} height="100px" width="100px" alt="newlogo"/>
         </div>
         <div className="col-6">
         <h1><a className="navbar-brand header pt-4" href="/">

@@ -5,31 +5,31 @@ import '../App.css';
 function Numbers() {
   const total = 43567;
   const urlList = [
-    { name: 'Cancer', no: '456' },
-    { name: 'Piles', no: '456' },
-    { name: 'Kidney Failure', no: '684' },
-    { name: 'Mental Disorders', no: '930' },
-    { name: 'Multiple Organ Failure', no: '265' },
-    { name: 'Auto-Immune Diseases ', no: '857' },
-    { name: 'Liver', no: '574' },
-    { name: 'ENT', no: '574' },
-    { name: 'Eye', no: '574' },
-    { name: 'Drug Abuse ', no: '574' },
-    { name: 'Skin Diseases', no: '574' },
-    { name: 'Mouth Problems', no: '574' },
+    { name: 'Cancer', no: '456+' },
+    { name: 'Piles', no: '296+' },
+    { name: 'Kidney Failure', no: '650+' },
+    { name: 'Mental Disorders', no: '900+' },
+    { name: 'Multiple Organ Failure', no: '337+' },
+    { name: 'Auto-Immune Diseases ', no: '867+' },
+    { name: 'Liver', no: '574+' },
+    { name: 'ENT', no: '480+' },
+    { name: 'Eye', no: '320+' },
+    { name: 'Drug Abuse ', no: '642+' },
+    { name: 'Skin Diseases', no: '756+' },
+    { name: 'Mouth Problems', no: '800+' },
   ];
-  const Cancer = ['Skin Cancer','Breast Cancer','Blood Cancer','All Cancer'];
-  const Piles = ['Bleeding','Mucus','Operated Piles'];
-  const Kidney = ['Polychystic','Renal Cell Carcinoma','High Cretinine','Protenuria','Cystitis','Stones','Nephratic Syndrome','Hydronephrosis'];
-  const Mental = ['Dillusion','Parkinson','Brain Tumor','Aeperal Atropy','Migraine','Acute Paralysis','Multiple Selorosis','G-B Syndrome'];
-  const Multiple = ['Mulitple Organ Failure'];
-  const AutoImmune = ['Autoimmune'];
-  const Liver = ['Polycystic Liver','Liver Cirrosis','Bilibrion','Glibeaf Syndrome','HCC','Hepatitis A B C','Loss of Appetite','Cealic Disease','Nausea','Wilson Disease'];
-  const ENT = ['Dischare','CSOM','Loss of hearing'];
-  const Eye = ['Glucoma','Eye Cyst','Rebitinus Pigmatosa'];
-  const Drug = ['Ill effects of Medicine'];
-  const Skin = ['Psorosis','White Spot(Virtigo)','Lichen Planus'];
-  const Mouth = ['Oral Lichen Planus','Oral Submucosa Flrosis','Syphlisis'];
+  const Cancer = ['Skin Cancer','Breast Cancer','Blood Cancer','Mouth Cancer','All Cancer'];
+  const Piles = ['Bleeding','Mucus','Operated Piles','Internal Haemorrhoids','Thrombosed Haemorrhoids'];
+  const Kidney = ['Polycystic','Renal Cell Carcinoma','High Creatinine','Protenuria','Cystitis','Stones','Nephrotic Syndrome','Hydronephrosis'];
+  const Mental = ['Delusion','Parkinson','Brain Tumor','Appeal Atropy','Migraine','Acute Paralysis','Multiple Sckerosis','G-B Syndrome'];
+  const Multiple = ['Multiple Organ Dysfunction Syndrome','Lungs Collaps','Rhd Disease','Septicemia'];
+  const AutoImmune = ['Dermatomyositis','Graves disease','Inflammatory bowel disease','Multiple sclerosis','Celiac disease'];
+  const Liver = ['Polycystic Liver','Liver Cirrhosis','Bilirubin','Glibert Syndrome','HCC','Hepatitis A B C','Loss of Appetite','Cealic Disease','Nausea','Wilson Disease'];
+  const ENT = ['Dischare','CSOM','Loss of hearing','Tonsillitis','Nosebleed','Chronic rhinosinusitis'];
+  const Eye = ['Glucoma','Eye Cyst','Rebitinus Pigmatosa','Diabetic Retinopathy','Strabismus','Cataract'];
+  const Drug = ['All effects of Medicine','Inhalants','Alcohol','Methamphetamine'];
+  const Skin = ['Psoriasis','White Spot(Vitiligo)','Lichen Planus','Hallucinogens','Pemphigus'];
+  const Mouth = ['Oral Lichen Planus','Oral Submucosa Flrosis','Prevention','Oral cancer','Edentulism'];
 
   const diseases=[
     {name: Cancer,nom:24},
