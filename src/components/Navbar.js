@@ -5,16 +5,17 @@ import MobileDropDown from './MobileDropdown';
 function Navbar() {
   return (
     <nav id="navbar" className="navbar-expand-lg " style ={{ backgroundColor: "rgba(255,255,255,0.83)" }}>
+      <div className='temp'>
       <div className="container-fluid row">
         <div className="col-1">
         <img className="logo-img" src={logo} height="100px" width="100px" alt="newlogo"/>
         </div>
-        <div className="col-6">
-        <h1><a className="navbar-brand header pt-4" href="/">
+        <div className="col-10 header-x header-mobile">
+        <a className="navbar-brand header text-wrap" href="/">
         Dr Rahul Astro Homeopathic & Research Center
-        </a></h1>
+        </a>
         </div>
-        <div className="col-5 ">
+        <div className="col-1">
           <MobileDropDown></MobileDropDown>
         <button
           className="navbar-toggler"
@@ -31,7 +32,7 @@ function Navbar() {
         
           <ul className="navbar-nav ms-auto mt-3  ">          
             <li className="nav-item">
-              <a className="nav-link active m-3 font-weight-bold" aria-current="page" href="#navbar">
+              <a className="nav-link active m-3 font-weight-bold" aria-current="page" href="/">
               <h5> Home </h5>
               </a>
             </li>
@@ -50,7 +51,7 @@ function Navbar() {
          
         </div>
         </div>
-      </div>
+      </div></div>
     </nav>
   );
 }
