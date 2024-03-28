@@ -15,7 +15,7 @@ function Navbar() {
         Dr Rahul Astro Homeopathic & Research Center
         </a>
         </div>
-        <div className="col-1">
+        <div className="col-1  d-flex flex-row-reverse">
           <MobileDropDown></MobileDropDown>
         <button
           className="navbar-toggler"
@@ -43,7 +43,7 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link m-3 font-weight-bold" href="#foot">
+              <a className="nav-link m-2 font-weight-bold" href="#foot">
               <h5>Contact Us </h5>
               </a>
             </li>         
