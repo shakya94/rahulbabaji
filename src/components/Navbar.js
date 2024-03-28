@@ -10,12 +10,12 @@ function Navbar() {
         <div className="col-1">
         <img className="logo-img" src={logo} height="100px" width="100px" alt="newlogo"/>
         </div>
-        <div className="col-8 header-x header-mobile">
+        <div className="col-xl-8 col-10 header-x header-mobile">
         <a className="navbar-brand header text-wrap" href="/">
         Dr Rahul Astro Homeopathic & Research Center
         </a>
         </div>
-        <div className="col-3">
+        <div className="col-1">
           <MobileDropDown></MobileDropDown>
         <button
           className="navbar-toggler"
