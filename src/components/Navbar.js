@@ -10,12 +10,12 @@ function Navbar() {
         <div className="col-1">
         <img className="logo-img" src={logo} height="100px" width="100px" alt="newlogo"/>
         </div>
-        <div className="col-xl-8 col-10 header-x header-mobile">
+        <div className="col-xl-6 col-10 header-x header-mobile">
         <a className="navbar-brand header text-wrap" href="/">
         Dr Rahul Astro Homeopathic & Research Center
         </a>
         </div>
-        <div className="col-1  d-flex flex-row-reverse">
+        <div className="dropdown col-1  d-flex flex-row-reverse">
           <MobileDropDown></MobileDropDown>
         <button
           className="navbar-toggler"
@@ -28,6 +28,8 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
+        </div>
+        <div className='col-5'>
         <div className="collapse navbar-collapse" id="navbarNav">
         
           <ul className="navbar-nav ms-auto mt-3  ">          
@@ -43,7 +45,7 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link m-2 font-weight-bold" href="#foot">
+              <a className="nav-link m-3 font-weight-bold" href="#foot">
               <h5>Contact Us </h5>
               </a>
             </li>         
