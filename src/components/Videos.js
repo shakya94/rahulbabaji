@@ -18,7 +18,7 @@ function Videos() {
           </div>
         ))}
       </div>
-         <a href='/testimonials'><button className='viewmore mb-4'>View More</button></a>
+         <a href='/Testimonials'><button className='viewmore mb-4'>View More</button></a>
     </div>
   );
 }
