@@ -40,7 +40,7 @@ function Navbar() {
           <div className="d-flex col-xl-3 col-5 ">
             <MobileDropDown />
           </div>
-        </div>
+        </div> 
       </div>
     </nav>
   );
