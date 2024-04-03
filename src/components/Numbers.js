@@ -7,16 +7,17 @@ function Numbers() {
   const urlList = [
     { name: 'Cancer', no: '456+' },
     { name: 'Piles', no: '296+' },
-    { name: 'Kidney Failure', no: '650+' },
-    { name: 'Mental Disorders', no: '900+' },
-    { name: 'Multiple Organ Failure', no: '337+' },
-    { name: 'Auto-Immune Diseases ', no: '867+' },
     { name: 'Liver', no: '574+' },
     { name: 'ENT', no: '480+' },
     { name: 'Eye', no: '320+' },
     { name: 'Drug Abuse ', no: '642+' },
     { name: 'Skin Diseases', no: '756+' },
-    { name: 'Mouth Problems', no: '800+' },
+    { name: 'Oral Issues', no: '800+' },
+    { name: 'Kidney Failure', no: '650+' },
+    { name: 'Mental Health', no: '900+' },
+    { name: 'Multiple Organ Failure', no: '337+' },
+    { name: 'Auto-Immune Diseases ', no: '867+' },
+   
   ];
   const Cancer = ['Skin Cancer','Breast Cancer','Blood Cancer','Mouth Cancer','All Cancer'];
   const Piles = ['Bleeding','Mucus','Operated Piles','Internal Haemorrhoids','Thrombosed Haemorrhoids'];
@@ -48,9 +49,9 @@ function Numbers() {
   return (
     <div className='py-20'>
       <div className="headers mt-4">Total Patients Cured<br/>{total}</div>
-      <div className='row m-1' style={{ justifyContent: 'space-around' }}>
+      <div className='row ml-1' style={{ justifyContent: 'space-around' }}>
         {urlList.map((tempNo, index) => (
-          <div key={index} className={`my-anchor-element-${index} no col-12 col-xl-4 m-2 p-3 d-flex justify-content-center align-items-center`}>
+          <div key={index} className={`my-anchor-element-${index} no  col-xl-4 col-5 mx-2 px-3 py-1 d-flex justify-content-center align-items-center`}>
             <h4>{tempNo.name}:<br />
               <div className='d-flex justify-content-center align-items-center'>{tempNo.no}</div>
             </h4>          

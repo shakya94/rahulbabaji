@@ -4,7 +4,8 @@ import Nagma from './Images/Nagma.jpeg';
 import Ayushman from './Images/Ayushman.jpeg';
 import Virendra from './Images/Virendra.jpeg';
 import Abhishek from './Images/Abhishek.jpeg';
-import Avinash from './Images/Avinash.jpeg';
+import Avinash from './Images/Avinash.png';
+import Hukum from './Images/Hukum.png';
 
 function Doctors() {
     const doctor=[
@@ -14,7 +15,7 @@ function Doctors() {
        { name: "Dr. Nagma",designation:"BAMS", urL:Nagma},
        { name: "Dr. Abhishek Yadav",designation:"BHMS", urL:Abhishek},
        { name: "Dr. Avinash Bharadwaj",designation:"BHMS", urL:Avinash},
-       { name: "Dr. Hukum Singh",designation:"BHMS", urL:Avinash}
+       { name: "Dr. Hukum Singh",designation:"BHMS", urL:Hukum}
     ]  
   return (
     <div>

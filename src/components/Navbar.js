@@ -10,12 +10,12 @@ function Navbar() {
           <div className="col-xl-1 col-1">
             <img className="logo-img" src={logo} height="100px" width="100px" alt="newlogo" />
           </div>
-          <div className="col-xl-8 col-10 header-x header-mobile">
+          <div className="col-xl-8 col-8 header-x header-mobile">
             <a className="navbar-brand header text-wrap" href="/">
               Dr Rahul Astro Homeopathic & Research Center
             </a>
           </div>
-          <div className='col-xl-3 col-7'>
+          <div className='col-xl-3 '>
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ms-auto mt-3">
                 <li className="nav-item">
@@ -37,7 +37,7 @@ function Navbar() {
               </ul>
             </div>
           </div>
-          <div className="d-flex col-xl-3 col-5 ">
+          <div className="d-flex col-xl-3 col-1 ">
             <MobileDropDown />
           </div>
         </div> 
