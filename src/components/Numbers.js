@@ -61,7 +61,6 @@ function Numbers() {
           <Tooltip anchorSelect={`.my-anchor-element-${ind}`} place="right" className="custom-tooltip">
             {dis.name.map((obj,indi)=>(
 
-           
           <div key={indi}> {obj} </div>
           ))}
           </Tooltip>
