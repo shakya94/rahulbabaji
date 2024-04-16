@@ -9,13 +9,13 @@ import Hukum from './Images/Hukum.png';
 
 function Doctors() {
     const doctor=[
-       { name: "Dr. Ajay",designation:"BAMS", urL:Ajay},
-       { name: "Dr. Ayushman Gupta",designation:"BAMS", urL:Ayushman},
-       { name: "Dr. Virendra",designation:"BAMS", urL:Virendra},
-       { name: "Dr. Nagma",designation:"BAMS", urL:Nagma},
-       { name: "Dr. Abhishek Yadav",designation:"BHMS", urL:Abhishek},
+       { name: "Dr. Hukum Singh",designation:"BHMS", urL:Hukum},
        { name: "Dr. Avinash Bharadwaj",designation:"BHMS", urL:Avinash},
-       { name: "Dr. Hukum Singh",designation:"BHMS", urL:Hukum}
+       { name: "Dr. Abhishek Yadav",designation:"BHMS", urL:Abhishek},
+       { name: "Dr. Ajay",designation:"*BAMS", urL:Ajay},
+       { name: "Dr. Ayushman Gupta",designation:"*BHMS", urL:Ayushman},
+       { name: "Dr. Nagma",designation:"*BHMS", urL:Nagma},
+       { name: "Dr. Virendra",designation:"*BHMS", urL:Virendra},   
     ]  
   return (
     <div>
